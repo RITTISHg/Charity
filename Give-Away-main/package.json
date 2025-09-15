@@ -1,0 +1,31 @@
+{
+  "name": "give-away",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@react-google-maps/api": "^2.20.7",
+    "axios": "^1.2.0",
+    "easy-peasy": "^5.2.0",
+    "framer-motion": "^12.0.6",
+    "razorpay": "^2.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.2",
+    "react-scroll": "^1.8.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "sass": "^1.56.1",
+    "vite": "^7.1.5"
+  }
+}

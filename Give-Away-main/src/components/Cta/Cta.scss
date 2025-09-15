@@ -1,0 +1,56 @@
+@import "../../scss/settings/breakpoints.scss";
+
+.Cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+
+  &-btns {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    @include M {
+      display: block;
+    }
+
+    .donate-section {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      .donate-input {
+        padding: 12px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 180px;
+        transition: border-color 0.3s;
+
+        &:focus {
+          border-color: #3399cc;
+          outline: none;
+        }
+      }
+
+      .donate-btn {
+        padding: 12px 24px;
+        background-color: white;
+        color:black;
+        border-color: black;
+        border-radius: 0px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color:yellow;
+        }
+      }
+    }
+  }
+}

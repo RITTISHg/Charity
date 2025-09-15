@@ -1,0 +1,118 @@
+@import "../../scss/settings/colors.scss";
+@import "../../scss/settings/breakpoints.scss";
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Contact {
+  display: flex;
+  height: 100vh;
+  &-image {
+    width: 55vw;
+    background-image: url(../../assets/Background-Contact-Form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    @include M {
+      width: 100vw;
+      opacity: 0.2;
+    }
+  }
+  &-form {
+    width: 45vw;
+    @include M {
+      position: absolute;
+      width: auto;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    &-data {
+      display: flex;
+      flex-direction: column;
+      width: 30vw;
+      margin: 0 auto;
+      line-height: 2rem;
+
+      @include L {
+        line-height: 1rem;
+      }
+      @include M {
+        width: auto;
+      }
+
+      &-info {
+        display: flex;
+        justify-content: space-between;
+        @include L {
+          display: block;
+        }
+        &__field {
+          font-size: 1.1rem;
+          border: transparent;
+          border-bottom: 1px solid $quaternaryColor;
+        }
+      }
+      &__text {
+        font-size: 1.1rem;
+        border: transparent;
+        border-bottom: 1px solid $quaternaryColor;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      &__btn {
+        margin-left: auto;
+        width: 8rem;
+        font-size: 1.1rem;
+        background-color: transparent;
+        margin-top: 2rem;
+        padding: 0.6rem 0.5rem;
+        border: 1px solid;
+        border-color: $quaternaryColor;
+        @include M {
+          background-color: #ffffff;
+          margin: 0 auto;
+        }
+        @media (min-width: 428px) {
+          &:hover {
+            background-color: $accentColor;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+.labelInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: start;
+}
+
+.error {
+  margin-right: auto;
+  color: red;
+  font-weight: 600;
+  animation: fadeInOpacity 1s;
+}
+.success {
+  margin-right: auto;
+  color: green;
+  font-weight: 600;
+  animation: fadeInOpacity 1s;
+}
+.hidden {
+  opacity: 0;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Clothing for All",
+    "goals": "Provide warm and comfortable clothing to individuals and families in need.",
+    "items": "jackets, sweaters, pants, shirts, shoes"
+  },
+  {
+    "id": 2,
+    "name": "Books for Learning",
+    "goals": "Enable access to educational resources for underprivileged students and learners.",
+    "items": "textbooks, notebooks, storybooks, stationery"
+  },
+  {
+    "id": 3,
+    "name": "Home Essentials",
+    "goals": "Support families by donating essential household items to improve daily life.",
+    "items": "blankets, utensils, small appliances, furniture"
+  },
+  {
+    "id": 4,
+    "name": "Toys for Joy",
+    "goals": "Bring happiness to children by donating toys and games to brighten their days.",
+    "items": "dolls, board games, puzzles, action figures"
+  },
+  {
+    "id": 5,
+    "name": "Electronics Donation",
+    "goals": "Help bridge the digital divide by donating functional electronics to those in need.",
+    "items": "laptops, smartphones, tablets, chargers"
+  },
+  {
+    "id": 6,
+    "name": "Food for Families",
+    "goals": "Combat hunger by providing essential food supplies to families in need.",
+    "items": "canned goods, rice, pasta, cooking oil, snacks"
+  }
+]

@@ -1,0 +1,35 @@
+@import "../../../scss/settings/colors.scss";
+@import "../../../scss/settings/breakpoints.scss";
+
+.InfoBar {
+  height: 22vh;
+  background-color: $accentColor;
+  text-align: left;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include M {
+    height: auto;
+  }
+  &__header {
+    margin-left: 8rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    @include M {
+      font-size: 1rem;
+      margin-left: 2rem;
+    }
+  }
+  &__text {
+    display: block;
+    margin-left: 8rem;
+    font-size: 1.5rem;
+
+    @include M {
+      font-size: 1rem;
+      margin-left: 2rem;
+    }
+  }
+}

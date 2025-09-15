@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Clothing Donation Drive",
+    "goals": "Help those in need by donating your gently used clothing to spread warmth and kindness.",
+    "items": "jackets, sweaters, pants, shirts, shoes"
+  },
+  {
+    "id": 2,
+    "name": "Books for Education",
+    "goals": "Empower underprivileged students with educational resources and books to help them succeed.",
+    "items": "textbooks, notebooks, storybooks, encyclopedias, stationery"
+  },
+  {
+    "id": 3,
+    "name": "Home Essentials Giveaway",
+    "goals": "Provide essential household items to families in need to improve their living conditions.",
+    "items": "furniture, utensils, blankets, appliances, decor"
+  }
+]

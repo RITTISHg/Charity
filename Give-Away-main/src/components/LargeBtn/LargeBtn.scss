@@ -1,0 +1,26 @@
+@import "../../scss/settings/colors.scss";
+@import "../../scss/settings/breakpoints.scss";
+
+.LargeBtn {
+  display: flex;
+  font-size: 2.25rem;
+  border: 1px solid $textColor;
+  width: 18rem;
+  height: 7.5rem;
+  margin: 1.375rem;
+  text-decoration: none;
+  color: $textColor;
+  align-items: center;
+  justify-content: center;
+  line-height: 3rem;
+  padding: 0 4rem;
+  @include M {
+    scale: 70%;
+    margin: 0;
+  }
+  @media (min-width: 428px) {
+    &:hover {
+      background-color: $accentColor;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Health Care",
+    "goals": "Help for people in difficult social situations.",
+    "items": "clothes, food, home equipment, furniture, toys"
+  },
+  {
+    "id": 2,
+    "name": "For Children",
+    "goals": "Help for children from poor families.",
+    "items": "clothes, furniture, toys"
+  },
+  {
+    "id": 3,
+    "name": "Without Home",
+    "goals": "Help for the homeless.",
+    "items": "clothes, food, warm blankets"
+  },
+  {
+    "id": 4,
+    "name": "Elderly Support",
+    "goals": "Provide assistance to elderly people with limited resources.",
+    "items": "walking aids, warm clothing, basic groceries"
+  },
+  {
+    "id": 5,
+    "name": "Animal Care",
+    "goals": "Support animal shelters with essential supplies.",
+    "items": "pet food, blankets, cleaning products"
+  },
+  {
+    "id": 6,
+    "name": "Education for All",
+    "goals": "Empower learning through educational supplies and resources.",
+    "items": "books, stationery, laptops"
+  },
+  {
+    "id": 7,
+    "name": "Emergency Relief",
+    "goals": "Provide aid to victims of natural disasters.",
+    "items": "first aid kits, water bottles, canned food"
+  },
+  {
+    "id": 8,
+    "name": "Community Growth",
+    "goals": "Support local community development initiatives.",
+    "items": "tools, seeds, construction materials"
+  },
+  {
+    "id": 9,
+    "name": "Job Assistance",
+    "goals": "Help unemployed individuals get back on their feet.",
+    "items": "business attire, resumes, laptops"
+  }
+]
