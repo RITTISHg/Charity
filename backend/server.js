@@ -3,12 +3,21 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const config = require('./config');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+// Middleware
+app.use(cors({
+    origin: config.CORS_ORIGIN,
+    credentials: true
+}));
 app.use(bodyParser.json());
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok' });
+});
 
 mongoose.connect(process.env.MONGODB_URI)
 
